@@ -4,156 +4,60 @@
   <title>Tours and Hiking</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<style>
+     .thumbnail-container {
+            display: flex;
+            justify-content: space-between;
+        }
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
-    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+        .thumbnail-container img {
+            width: 100px;
+            height: auto;
+            margin-top: 10px;
+        }
+</style>
 </head>
+
 <body>
-<h1>Visit cities with Mahesh Gudla</h1>
-<br>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-2">G</div>
-    <div class="col-sm-2">U</div>
-    <div class="col-sm-2">D</div>
-    <div class="col-sm-2">L</div>
-    <div class="col-sm-2">A</div>
-    <div class="col-sm-2">M</div>
-  </div>
-  <div class="row">
-    <div class="col-md">GUNTUR</div>
-    <div class="col-md">UTTARAKHAND</div>
-    <div class="col-md">DELHI</div>
-    <div class="col-md">LADAKH</div>
-    <div class="col-md">AMRITSAR</div>
-    <div class="col-md">MUMBAI</div> 
-  </div>
-</div>
-
-<br>
-
-<div class="container">
-  <div class="row">
-    <div class="col-md-4">
-      <img src="Delhi.jpg" alt="Delhi" class="img-fluid rounded">
-    </div>
-    <div class="col-md-4">
-      <img src="guntur.jpg" alt="Guntur" class="img-fluid rounded">
-    </div>
-    <div class="col-md-4">
-      <img src="uttarakhand.jpg" alt="Uttarakhand" class="img-fluid rounded">
-    </div>
-  </div>
-  <div class="container mt-5">
-    <table class="table table-bordered table-striped">
-      <caption>List of Cities, Rivers, and Trees</caption>
-      <thead class="table-dark">
-        <tr>
-          <th scope="col">Letter</th>
-          <th scope="col">City</th>
-          <th scope="col">River</th>
-          <th scope="col">Tree</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="table-success">
-          <th scope="row">G</th>
-          <td>Guntur</td>
-          <td>Ganges</td>
-          <td>Guava</td>
-        </tr>
-        <tr class="table-primary">
-          <th scope="row">U</th>
-          <td>Uttarakhand</td>
-          <td>Ural River</td>
-          <td>Umbrella Thorn Acacia</td>
-        </tr>
-        <tr class="table-secondary">
-          <th scope="row">D</th>
-          <td>Delhi</td>
-          <td>Danube</td>
-          <td>Dogwood</td>
-        </tr>
-        <tr class="table-warning">
-          <th scope="row">L</th>
-          <td>Ladakh</td>
-          <td>Lena River</td>
-          <td>Larch</td>
-        </tr>
-        <tr class="table-info">
-          <th scope="row">A</th>
-          <td>Amritsar</td>
-          <td>Amazon River</td>
-          <td>Apple</td>
-        </tr>
-        <tr class="table-danger">
-          <th scope="row">M</th>
-          <td>Mumbai</td>
-          <td>Mekong River</td>
-          <td>Maple</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <br>
-  <div class="container mt-4">
-    <div class="btn-toolbar" role="toolbar" aria-label="Button groups">
-      <!-- Group 1: Success buttons -->
-      <div class="btn-group me-2" role="group" aria-label="Success Group">
-        <button type="button" class="btn btn-success">G</button>
-        <button type="button" class="btn btn-success">U</button>
-        <button type="button" class="btn btn-success">D</button>
-      </div>
-
-      <!-- Group 2: Alert buttons -->
-      <div class="btn-group me-2" role="group" aria-label="Alert Group">
-        <button type="button" class="btn btn-warning">L</button>
-        <button type="button" class="btn btn-warning">A</button>
-      </div>
-
-      <!-- Group 3: Danger buttons -->
-      <div class="btn-group" role="group" aria-label="Danger Group">
-        <button type="button" class="btn btn-danger">M</button>
-      </div>
-    </div>
-  </div>
-
-  <br>
   <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <a class="navbar-brand" href="#">Cities</a>
+    <a class="navbar-brand" href="cities.html">A Few Cities</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Rivers <span class="sr-only"></span></a>
+          <a class="nav-link" href="basic.html">Basic <span class="sr-only"></span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Trees</a>
+          <a class="nav-link" href="advanced.html">Advanced</a>
         </li>
       </ul>
     </div>
   </nav>
-
+  <h1>Visit cities with Mahesh Gudla</h1>
   <br>
-  <div class="container mt-4">
-    <div class="dropdown">
-      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Go to links
-      </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="./basic.html">Basic</a>
-        <a class="dropdown-item" href="./advanced.html">Advanced</a>
-      </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2">G</div>
+      <div class="col-sm-2">U</div>
+      <div class="col-sm-2">D</div>
+      <div class="col-sm-2">L</div>
+      <div class="col-sm-2">A</div>
+      <div class="col-sm-2">M</div>
+    </div>
+    <div class="row">
+      <div class="col-md">GUNTUR</div>
+      <div class="col-md">UTTARAKHAND</div>
+      <div class="col-md">DELHI</div>
+      <div class="col-md">LADAKH</div>
+      <div class="col-md">AMRITSAR</div>
+      <div class="col-md">MUMBAI</div>
     </div>
   </div>
-
   <p>
     The row containing the letters (using col-sm) breaks first.
     This happens because col-sm specifies a fixed width for each letter,
@@ -161,5 +65,126 @@
     On the other hand, the city names (using col-md) adapt their width to the available space,
     allowing them to remain on the same line for longer before wrapping.
   </p>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="Delhi.jpg" alt="Delhi" class="img-fluid rounded">
+      </div>
+      <div class="col-md-4">
+        <img src="guntur.jpg" alt="Guntur" class="img-fluid rounded">
+      </div>
+      <div class="col-md-4">
+        <img src="uttarakhand.jpg" alt="Uttarakhand" class="img-fluid rounded">
+      </div>
+    </div>
+    <div class="thumbnail-container">
+      <img src="Delhi.jpg" alt="Delhi" class="img-thumbnail">
+      <img src="guntur.jpg" alt="Delhi" class="img-thumbnail">
+      <img src="uttarakhand.jpg" alt="Delhi" class="img-thumbnail">
+
+    </div>
+    <div class="container mt-5">
+    <div class="table-responsive">
+      <table class="table table-bordered table-striped caption-top ">
+        <caption>List of Cities, Rivers, and Trees</caption>
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">Letter</th>
+            <th scope="col">City</th>
+            <th scope="col">River</th>
+            <th scope="col">Tree</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-success">
+            <th scope="row">G</th>
+            <td>Guntur</td>
+            <td>Ganges</td>
+            <td>Guava</td>
+          </tr>
+          <tr class="table-primary">
+            <th scope="row">U</th>
+            <td>Uttarakhand</td>
+            <td>Ural River</td>
+            <td>Umbrella Thorn Acacia</td>
+          </tr>
+          <tr class="table-secondary">
+            <th scope="row">D</th>
+            <td>Delhi</td>
+            <td>Danube</td>
+            <td>Dogwood</td>
+          </tr>
+          <tr class="table-warning">
+            <th scope="row">L</th>
+            <td>Ladakh</td>
+            <td>Lena River</td>
+            <td>Larch</td>
+          </tr>
+          <tr class="table-info">
+            <th scope="row">A</th>
+            <td>Amritsar</td>
+            <td>Amazon River</td>
+            <td>Apple</td>
+          </tr>
+          <tr class="table-danger">
+            <th scope="row">M</th>
+            <td>Mumbai</td>
+            <td>Mekong River</td>
+            <td>Maple</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+    <br>
+    <div class="container mt-4">
+      <div class="btn-toolbar">
+        <!-- Group 1: Success buttons -->
+        <div class="btn-group" role="group" aria-label="Success Group" - cities with images>
+          <button type="button" class="btn btn-success">G</button>
+          <button type="button" class="btn btn-success">U</button>
+          <button type="button" class="btn btn-success">D</button>
+        </div>
+        <!-- Group 2: Alert buttons -->
+        <div class="btn-group" role="group" aria-label="Alert Group"- cities without images>
+          <button type="button" class="btn btn-warning">L</button>
+          <button type="button" class="btn btn-warning">A</button>
+        </div>
+        <!-- Group 3: Danger buttons -->
+        <div class="btn-group" role="group" aria-label="Danger Group"- remaining city>
+          <button type="button" class="btn btn-danger">M</button>
+        </div>
+      </div>
+    </div>
+    <br>
+    
+    <br>
+    <div class="dropdown" Style="position: relative; display: inline-block;">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" href="basic.html">Basic Page</a></li>
+          <li><a class="dropdown-item" href="advanced.html">Advanced Page</a></li>
+      </div>
+    </div>
+    <HR>
+      <form>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">City</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your city">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
 </body>
 </html>
